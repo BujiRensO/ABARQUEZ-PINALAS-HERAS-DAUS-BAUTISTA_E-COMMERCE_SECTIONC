@@ -1,0 +1,107 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.con2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+/* style the container */
+.container {
+  
+ 
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  padding-top: 67.5px;
+  padding-bottom: 326px;
+  width: auto;
+  height: auto;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 100%);
+ 
+} 
+.container2{
+    margin-left: 65%;
+    width: fit-content;
+}
+
+
+.row{
+    width: 50%;
+    
+}
+
+
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;s
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+    align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;}
+
+
+/* Clear floats after the columns */
+
+/* vertical line */
+
+/* text inside the vertical line */
+
+/* hide some text on medium and large screens */
+
+
+/* bottom container */
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+
+  
+
