@@ -2,6 +2,16 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
@@ -14,7 +24,7 @@ body {
 /* Add padding to containers */
 .container {
   padding: 16px;
-  background-color: rgba(255, 255, 255, 0.263);
+  background-color: rgba(0, 0, 0, 0.255);
 }
 
 /* Full-width input fields */
@@ -66,7 +76,7 @@ a {
 }
 </style>
 </head>
-<body style="background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/89385792385599.5e4a823b760dd.jpg);">
+<body style="background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/89385792385599.5e4a823b760dd.jpg); background-color: rgba(0, 0, 0, 0.436);">
 
 <form action="/action_page.php">
   <div class="container">
@@ -83,13 +93,13 @@ a {
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <hr>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <p style="background-color: rgba(0, 0, 0, 0.542); border-radius: 10px; color: white; text-align: center;">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-    <a href="index.html"><button type="submit" class="registerbtn">Register</button></a>
+    <a href="/index.html"><button type="submit" class="registerbtn">Register</button></a>
   </div>
   
   <div class="container signin">
-    <p>Already have an account? <a href="index.html">Sign in</a>.</p>
+    <p>Already have an account? <a href="/index.html">Sign in</a>.</p>
   </div>
 </form>
 
