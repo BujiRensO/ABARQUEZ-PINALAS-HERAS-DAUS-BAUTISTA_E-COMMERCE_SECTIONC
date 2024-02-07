@@ -28,7 +28,6 @@ body {
   height: auto;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 100%);
- 
 } 
 .container2{
     margin-left: 65%;
@@ -44,8 +43,7 @@ body {
 
 
 /* style inputs and link buttons */
-input,
-.btn {
+input,.btn {
   width: 100%;s
   padding: 12px;
   border: none;
