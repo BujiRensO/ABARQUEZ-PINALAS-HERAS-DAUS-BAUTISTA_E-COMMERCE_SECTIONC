@@ -7,6 +7,7 @@ body {
   margin: 0;
   margin-top: 0;
   margin-bottom: 0;
+  
 }
 .con2{
     width: 100px;
@@ -19,26 +20,33 @@ body {
 /* style the container */
 .container {
   
- 
+  display: flex;
   background-color: #f2f2f2;
   padding: 20px 0 30px 0;
-  padding-top: 67.5px;
-  padding-bottom: 326px;
+  padding-top: 157px;
+  padding-bottom: 250px;
   width: auto;
   height: auto;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 100%);
 } 
 .container2{
-    margin-left: 65%;
+    margin-left: 30%;
+    margin-right: 10%;
     width: fit-content;
+   padding: 5%; 
+   background: rgb(0,0,0);
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.326) 0%, rgba(0,0,0,1) 52%, rgba(0, 0, 0, 0.37) 100%);
+   height: 50%;
+   border-radius: 25px;
+   padding-right: 25%%;
 }
 
 
 
 .row{
-    width: 50%;
-    
+    width: 100%;
+    margin-left: 50%;
 }
 
 
@@ -74,13 +82,7 @@ input[type=submit]:hover {
 }
 
 /* Two-column layout */
-.col {
-    align-items: center;
-  width: 50%;
-  margin: auto;
-  padding: 0 50px;
-  margin-top: 6px;
-}
+
 
 .btn{
     text-decoration: none;
@@ -88,19 +90,6 @@ input[type=submit]:hover {
     color: white;
     cursor: pointer;}
 
-
-/* Clear floats after the columns */
-
-/* vertical line */
-
-/* text inside the vertical line */
-
-/* hide some text on medium and large screens */
-
-
-/* bottom container */
-
-/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-
+.col{width: 100%;}
   
 
