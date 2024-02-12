@@ -229,3 +229,34 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+footer{
+  background-image: url(https://cdn.dribbble.com/users/682206/screenshots/7081830/media/1cea1b0102978334331af83578ba4f26.png?resize=1000x750&vertical=center);
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 50%;
+  letter-spacing: 50px;
+  background-color: black;
+  color: white;
+  font-weight: 1200;
+
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);   
+   /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  box-shadow:
+            0 0 10px 3px #ffffff;
+           
+  border: 3px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+}
