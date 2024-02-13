@@ -12,9 +12,8 @@ html {
   transition: all 0.5s ease;
 }
 a {
-    text-decoration: none;
-  }
-  
+  text-decoration: none;
+}
 
 body {
   background-color: rgb(255, 255, 255);
@@ -23,136 +22,152 @@ body {
 
 /*PROJECT CONTAINER*/
 .project-container {
-    max-width: 1315px;
-    margin: 70px auto 0; /* Added top margin equal to navbar height */
-    text-align: justify;
-    color: #000000;
+  max-width: 1315px;
+  margin: 70px auto 0; /* Added top margin equal to navbar height */
+  text-align: justify;
+  color: #000000;
 }
-  .project-container h1 {
-    font-size: 80px;
-    font-weight: 700;
-    text-align: center;
-  }
+.project-container h1 {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
 
-  
-  .project-class-p {
-    margin-top: 20px;
-  }
-  
+.project-class-p {
+  margin-top: 20px;
+}
+
 /* PROJECT CARD */
 .project-card {
-    display: inline-block;
-    width: 300px; /* Fixed width */
-    height: 400px; /* Fixed height */
-    margin: 20px 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    position: relative; /* Added */
+  display: inline-block;
+  width: 300px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  margin: 20px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: relative; /* Added */
 }
 
-
 .project-card:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 /* PROJECT CARD IMG*/
 .project-card img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover; /* Image will cover the entire area of the card */
-    object-position: center;
-    border-radius: 8px 8px 0 0;
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /* Image will cover the entire area of the card */
+  object-position: center;
+  border-radius: 8px 8px 0 0;
 }
 
 .card-content {
-    max-height: 150px; /* Set the maximum height as needed */
-    overflow: hidden;
-    padding: 15px;
-    font-size: 10px;
+  max-height: 150px; /* Set the maximum height as needed */
+  overflow: hidden;
+  padding: 15px;
+  font-size: 10px;
 }
 
 .add-to-cart {
-    position: absolute; /* Position relative to the project card */
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-130px);
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  position: absolute; /* Position relative to the project card */
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-130px);
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .add-to-cart:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
-
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 0;
-    background-color: black;
-    z-index: 1000;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    text-align: center;
-    padding: 10px 20px;
-  }
-  
-  nav ul li a {
-    color: #ffffff;
-    position: relative;
-    padding: 5px 0;
-  }
-  
-  nav ul li a:hover {
-    color: #47a5fd;
-  }
-  
-  nav ul li a:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background: #47a5fd;
-    transition: 0.3s;
-    bottom: 0;
-  }
-  
-  nav ul li a:hover:after {
-    width: 100%;
-  }
-  
-  * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: black;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  position: relative;
+  padding: 5px 0;
+}
+
+nav ul li a:hover {
+  color: #47a5fd;
+}
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #47a5fd;
+  transition: 0.3s;
+  bottom: 0;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+.mySlides img{
+  height: 600px;
+  width: 1000px;
+  object-fit: cover;
+  object-position: center;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 100px auto;
+}
+
+.slider {
+  text-align: center;
+  margin: -110px 0 0 0;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -174,8 +189,9 @@ img {vertical-align: middle;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -194,7 +210,7 @@ img {vertical-align: middle;}
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
@@ -210,7 +226,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -221,16 +238,24 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
 
-footer{
+footer {
   background-image: url(https://cdn.dribbble.com/users/682206/screenshots/7081830/media/1cea1b0102978334331af83578ba4f26.png?resize=1000x750&vertical=center);
   text-align: center;
   padding-top: 5%;
@@ -240,23 +265,21 @@ footer{
   background-color: black;
   color: white;
   font-weight: 1200;
-
 }
 
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);   
-   /* color of the tracking area */
+  background: rgb(0, 0, 0);
+  /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  box-shadow:
-            0 0 10px 3px #ffffff;
-           
-  border: 3px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  background-color: rgb(255, 255, 255); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  box-shadow: 0 0 10px 3px #ffffff;
+
+  border: 3px solid rgb(0, 0, 0); /* creates padding around scroll thumb */
 }
