@@ -94,15 +94,24 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding: 15px 0;
   background-color: black;
   z-index: 1000;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 
+.navimage {
+  max-width: 100px; /* Adjust the max-width as needed */
+  border-radius: 25%; /* Make the image circular */
+  height: 75%;
+}
 nav ul {
   list-style: none;
   display: flex;
+  
 }
 
 nav ul li {
@@ -254,6 +263,40 @@ body {
     font-size: 11px;
   }
 }
+header{
+  background-image: url(https://cdn.dribbble.com/users/682206/screenshots/7081830/media/1cea1b0102978334331af83578ba4f26.png?resize=1000x750&vertical=center);
+  
+  padding-top: 10%;
+  padding-bottom: 25%;
+  height: 120%;
+  
+  background-color: black;
+  color: white;
+  font-weight: 1200;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divhead{
+  background-color: rgb(228, 228, 228, 0.80);
+  max-width: 50%;
+  margin-left: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-radius: 15px;
+}
+.H{
+  color: black;
+  letter-spacing: 25px;
+  margin-left: 5%;
+  font-weight: bolder;
+}
+.P{
+  color: black;
+  margin-top: 2.5%;
+}
+
 
 footer {
   background-image: url(https://cdn.dribbble.com/users/682206/screenshots/7081830/media/1cea1b0102978334331af83578ba4f26.png?resize=1000x750&vertical=center);
@@ -283,3 +326,5 @@ body::-webkit-scrollbar-thumb {
 
   border: 3px solid rgb(0, 0, 0); /* creates padding around scroll thumb */
 }
+
+
