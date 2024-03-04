@@ -263,20 +263,18 @@ body {
   }
 }
 header {
-  background-image: url(https://cdn.dribbble.com/users/682206/screenshots/7081830/media/1cea1b0102978334331af83578ba4f26.png?resize=1000x750&vertical=center);
-
+  background-image: url(/src/black-pattern-background.jpg);
   padding-top: 10%;
   padding-bottom: 25%;
   height: 120%;
-
   background-color: black;
   color: white;
   font-weight: 1200;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
 }
 .divhead {
-  background-color: rgb(228, 228, 228, 0.8);
+
   max-width: 50%;
   margin: 2% 0 0 2.5%;
   padding-left: 5%;
@@ -285,14 +283,49 @@ header {
   padding-bottom: 2.5%;
   border-radius: 15px;
 }
+
+.carImg{
+  width: 700px;
+  margin-left: 750px;
+  margin-top: -230px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  opacity: .7;
+  animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+
+  
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translatex(0px);
+	}
+	50% {
+    transform: translatex(30px);
+	}
+	100% {
+		
+    transform: translatex(0px);
+	}
+
+
+}
+
+.carImgContainer{
+ 
+}
+
+
 .H {
-  color: black;
+  color: white;
   letter-spacing: 25px;
   margin-left: 5%;
   font-weight: bolder;
 }
 .P {
-  color: black;
+  color: white;
   margin-top: 2.5%;
 }
 
