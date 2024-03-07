@@ -150,6 +150,7 @@ nav ul li a:hover:after {
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
+  background-color: black;
 }
 .mySlides {
   display: none;

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch data from JSON file
-    fetch("/json/cars.json")
+    fetch("../json/cars.json")
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById("section-3");
