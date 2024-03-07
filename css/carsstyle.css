@@ -292,3 +292,12 @@ body::-webkit-scrollbar-thumb {
 
   border: 3px solid rgb(0, 0, 0); /* creates padding around scroll thumb */
 }
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+h1{
+  color: white;
+}
