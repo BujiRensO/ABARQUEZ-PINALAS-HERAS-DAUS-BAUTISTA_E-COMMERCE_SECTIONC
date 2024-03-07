@@ -1,0 +1,69 @@
+header {
+    background-image: url(../src/black-pattern-background.jpg);
+    padding-top: 10%;
+    padding-bottom: 25%;
+    height: 120%;
+    background-color: black;
+    color: white;
+    font-weight: 1200;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+  .divhead {
+  
+    max-width: 50%;
+    margin: 2% 0 0 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-radius: 15px;
+  }
+  
+  .carImg{
+    width: 700px;
+    margin-left: 750px;
+    margin-top: -230px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity: .7;
+    animation: float 6s ease-in-out infinite;
+      img { width: 100%; height: auto; }
+  
+    
+  }
+  
+  @keyframes float {
+      0% {
+          
+          transform: translatex(0px);
+      }
+      50% {
+      transform: translatex(30px);
+      }
+      100% {
+          
+      transform: translatex(0px);
+      }
+  
+  
+  }
+  
+  .carImgContainer{
+   
+  }
+  
+  
+  .H {
+    color: white;
+    letter-spacing: 25px;
+    margin-left: 5%;
+    font-weight: bolder;
+    line-height: 100px;
+  }
+  .P {
+    color: white;
+    margin-top: 2.5%;
+    line-height: 50px;
+  }
+  
