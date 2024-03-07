@@ -263,7 +263,7 @@ body {
   }
 }
 header {
-  background-image: url(./src/black-pattern-background.jpg);
+  background-image: url(../src/black-pattern-background.jpg);
   padding-top: 10%;
   padding-bottom: 25%;
   height: 120%;
