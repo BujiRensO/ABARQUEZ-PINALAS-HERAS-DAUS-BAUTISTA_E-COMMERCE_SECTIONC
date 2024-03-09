@@ -23,47 +23,46 @@ header {
   .carImg{
     width: 700px;
     margin-left: 750px;
-    margin-top: -230px;
+    top: 250px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    opacity: .7;
-    animation: float 6s ease-in-out infinite;
-      img { width: 100%; height: auto; }
+   
+    position: absolute;
+    
   
     
   }
-  
-  @keyframes float {
-      0% {
-          
-          transform: translatex(0px);
-      }
-      50% {
-      transform: translatex(30px);
-      }
-      100% {
-          
-      transform: translatex(0px);
-      }
-  
-  
-  }
+
   
   .carImgContainer{
    
   }
   
   
-  .H {
+  .carTitle {
     color: white;
-    letter-spacing: 25px;
-    margin-left: 5%;
+    letter-spacing: 10px;
+    left: 150px;
+    text-align: left;
     font-weight: bolder;
-    line-height: 100px;
-  }
+    position: absolute;
+    top: 350px;
+    font-size: larger;
+   }
   .P {
     color: white;
     margin-top: 2.5%;
     line-height: 50px;
+    position: absolute;
+    margin-right: 800px;
+  }
+  .homecar{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.929);
+    width: 190vb;
+    height: 146px;
+    position: absolute;
+    top: 400px;
+    box-shadow: 0px 9px 30px rgba(162, 182, 255, 0.484);
   }
   

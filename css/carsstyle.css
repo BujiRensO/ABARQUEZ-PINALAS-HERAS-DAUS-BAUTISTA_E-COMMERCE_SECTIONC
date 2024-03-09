@@ -160,6 +160,8 @@ body {
   width: 1000px;
   object-fit: cover;
   object-position: center;
+  box-shadow: rgb(255, 255, 255) 0px 5px, rgba(210, 205, 208, 0.836) 0px 10px, rgba(253, 253, 253, 0.2) 0px 15px, rgba(234, 234, 234, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+  
 }
 
 /* Slideshow container */
@@ -167,6 +169,7 @@ body {
   max-width: 1000px;
   position: relative;
   margin: 100px auto;
+ 
 }
 
 .slider {
