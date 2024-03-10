@@ -1,139 +1,107 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.con2 {
-  width: 100px;
-  height: 100px;
-  background-color: black;
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/324/828/920/toyota-sprinter-trueno-ae86-gt-apex-toyota-jdm-japanese-cars-sports-car-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
-
-/* style the container */
-
-.container {
-  justify-content: center;
-  display: flex;
-  background-color: #f2f2f2;
-  padding: 20px 0 30px 0;
-  padding-top: 157px;
-  padding-bottom: 250px;
-  width: auto;
-  height: auto;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 10%,
-    rgba(255, 255, 255, 0) 100%
-  );
+.background{
+  filter: drop-shadow(8px 8px 10px gray);
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
 }
-.container2 {
-  margin-left: 30%;
-  margin-right: 10%;
-  width: fit-content;
-  padding: 5%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.326) 0%,
-    rgba(0, 0, 0, 1) 52%,
-    rgba(0, 0, 0, 0.37) 100%
-  );
-  height: 50%;
-  border-radius: 25px;
-  padding-right: 25%;
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 100%;
 }
-
-.row {
-  width: 100%;
-  margin-left: 50%;
+.shape:first-child{
+    background: linear-gradient(
+        #00174d,
+        #2c2c2c
+    );
+    left: -80px;
+    top: -80px;
 }
-
-.row2 {
-  width: 100%;
-  margin-left: 55%;
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
 }
-
-/* style inputs and link buttons */
-input,
-.btn {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-  margin: 5px 0;
-  opacity: 0.85;
-  display: inline-block;
-  font-size: 17px;
-  line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+form{
+    height: 550px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
 }
-
-input:hover,
-.btn:hover {
-  opacity: 1;
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
 }
 
-/* style the submit button */
-input[type="submit"] {
-  background-color: #04aa6d;
-  color: white;
-  cursor: pointer;
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-/* Two-column layout */
-
-.col {
-  width: 100%;
-}
-
-.btn {
-  align-items: center;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
-  box-sizing: border-box;
-  color: #121212;
-  cursor: pointer;
-  display: inline-flex;
-  flex: 1 1 auto;
-  font-family: Inter, sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  justify-content: center;
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  padding: 1rem 1.2rem;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
-  white-space: nowrap;
-  border: 0;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  height: 40px;
-  transition: all ease-in-out 0.3s;
-}
-
-.btn:hover {
-  color: #fff;
-  background-color: #1a1a1a;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-
-  transform: scaleX(1.1055);
-}
-
-.hoho {
-  margin-left: 150px;
-}
